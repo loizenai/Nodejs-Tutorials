@@ -1,5 +1,6 @@
 Backend Development - Angular Nodejs Fullstack CRUD Application with MySQL/PostgreSQL – Angular 10-9-8 HttpClient + Nodejs Express, Sequelize ORM
-https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgresql-angular-10-9-8-httpclient-client-nodejs-express-sequelize-orm/
+***
+Link: https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgresql-angular-10-9-8-httpclient-client-nodejs-express-sequelize-orm/
 
 Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser. Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. In the tutorial, I introduce how to build a Angular Nodejs CRUD RestAPIs Fullstack Project with POST/GET/PUT/DELETE requests with step by step coding examples.
 
