@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-upload-csv-files",
+  "version": "1.0.0",
+  "description": "Nodejs Upload Download CSV File to MySQL/PostgreSQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "Multer",
+    "Sequelize",
+    "Upload-File",
+    "Download-CSV-File",
+    "MySQL"
+  ],
+  "author": "https://loizenai.com",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.0",
+    "json2csv": "^5.0.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.13"
+  }
+}
