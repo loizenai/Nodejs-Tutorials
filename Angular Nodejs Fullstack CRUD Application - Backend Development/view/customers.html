@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Build CRUD Nodejs Application</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/update_customer.js"></script>
+<script type="text/javascript" src="/js/delete_customer.js"></script>
+<script type="text/javascript" src="/js/get_customer.js"></script>
+</head>
+<body>
+	<div class="container">
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" href="/">Add New</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/customers/">All Customers</a>
+			</li>
+		</ul>
+        <div id="div_customer_table">
+			<h1>Customers Table</h1>
+			<div class="row col-md-6 table-responsive">
+			  <table id="customerTable" class="table table-striped">
+				<thead>
+				  <tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Address</th>
+					<th></th>
+				  </tr>
+				</thead>
+				<tbody>
+				</tbody>
+			  </table>
+			</div>
+		  </div>
+		<div class="row">
+			<div class="col-sm-6" style="display: none; 
+											background-color:#e6fffa; padding:10px; border-radius:3px" 
+									id="div_customer_updating">
+				<form id="update_customer_form">
+					<div class="form-group">
+					<label for="customer_id">Id:</label>
+					<input type="text" class="form-control" id="customer_id" readonly>
+					</div>
+					<div class="form-group">
+					<label for="customer_first_name">First Name:</label>
+					<input type="text" class="form-control" placeholder="Enter First Name" id="customer_first_name">
+					</div>
+					<div class="form-group">
+						<label for="customer_last_name">Last Name:</label>
+						<input type="text" class="form-control" placeholder="Enter Last Name" id="customer_last_name">
+					</div>				  
+					<div class="form-group">
+						<label for="customer_address">Address:</label>
+						<input type="text" class="form-control" placeholder="Enter Address" id="customer_address">
+					</div>				  				
+					<div class="form-group">
+						<label for="customer_age">Age:</label>
+						<input type="number" class="form-control" 
+								placeholder="Enter Age" id="customer_age" min="18" max="60">
+					</div>				  				
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+				<div id="response" style="display:none; margin:10px">
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		  <!-- The Modal -->
+		  <div class="modal fade" id="delete-modal">
+			<div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-content">
+			  
+				<!-- Modal Header -->
+				<div class="modal-header">
+				  <h4 class="modal-title">Delete!</h4>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				
+				<!-- Modal body -->
+				<div class="modal-body">
+				</div>
+				
+				<!-- Modal footer -->
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+				  <button type="button" class="btn btn-danger" id="model-delete-btn">Delete</button>
+				</div>				
+			  </div>
+			</div>
+		  </div>
+	</div>
+</body>
+</html>

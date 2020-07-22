@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-build-crud-application",
+  "version": "1.0.0",
+  "description": "Nodejs Build Crud Application Post/Get/Put/Delete to MySQL/PostgreSQL with frontend is bootstrap framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "RestAPI",
+    "Express",
+    "Tutorial",
+    "MySQL",
+    "PostgreSQL",
+    "Bootstrap",
+    "framework"
+  ],
+  "author": "https://loizenai.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.13"
+  }
+}
