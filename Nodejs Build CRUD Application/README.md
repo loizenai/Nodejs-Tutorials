@@ -1,6 +1,7 @@
 Tutorial Article:
 
 Build Nodejs CRUD Application with MySQL/PostgreSQL – Express RestAPIs + Ajax : Post/Get/Put/Delete Request
+-----------------------------
 https://loizenai.com/build-nodejs-crud-application-with-mysql-postgresql-express-restapis-ajax-post-get-put-delete-request/
 
 In the tutorial, I will introduce how to create a Fullstack Nodejs RestAPIs CRUD Application to MySQL/PostgreSQL database using Express framework and Sequelize ORM for building Backend and using Bootstrap, JQuery Ajax for building frontend client
