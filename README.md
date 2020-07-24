@@ -13,3 +13,6 @@ https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgr
 
 4. Nodejs RestAPIs Upload Download Multiple Excel Files to MySQL/PostgreSQL – Multer, Sequelize ORM, Exceljs, Read-excel-file
 https://loizenai.com/nodejs-restapis-upload-download-multiple-excel-files-to-mysql-postgresql/
+
+5. Multer – Nodejs Upload/Download Multiple Files/Images to Server MySQL/PostgreSQL database – Sequelize + Ajax
+https://loizenai.com/nodejs-upload-download-multiple-files-images-to-server-mysql-postgresql-database-using-multer-sequelize-ajax/
