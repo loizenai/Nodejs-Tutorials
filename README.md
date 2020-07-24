@@ -10,3 +10,6 @@ https://loizenai.com/build-nodejs-crud-application-with-mysql-postgresql-express
 
 3. Angular Nodejs Fullstack CRUD Application with MySQL/PostgreSQL – Angular 10-9-8 HttpClient + Nodejs Express, Sequelize ORM
 https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgresql-angular-10-9-8-httpclient-client-nodejs-express-sequelize-orm/
+
+4. Nodejs RestAPIs Upload Download Multiple Excel Files to MySQL/PostgreSQL – Multer, Sequelize ORM, Exceljs, Read-excel-file
+https://loizenai.com/nodejs-restapis-upload-download-multiple-excel-files-to-mysql-postgresql/
