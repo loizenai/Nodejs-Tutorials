@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Upload Download File Examples</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/uploaddownloadfiles.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Single File</h3>
+				<form id="uploadSingleFileForm">
+					<div class="form-group">
+						<label class="control-label" for="uploadfile">Choose a File:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose a upload file" name="file" required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadSingleFileSubmit">Submit</button>
+				</form>
+				<div id="response" style="display:none">
+				</div>
+			</div>
+		</div>
+		<hr>		
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Multiple Files</h3>
+				<form id="uploadMultipleFilesForm">
+					<div class="form-group">
+						<label class="control-label" for="uploadfiles">Choose Files:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose upload files" name="files" multiple required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadMultipleFilesSubmit">Submit</button>
+				</form>
+				<div id="responses" style="display:none">
+				</div>
+			</div>
+			
+		</div>
+		<hr>
+		<div id="downloadfiles" class="row">
+			<div class="col-sm-7">
+				<a href="/api/file" class="btn btn-info" role="button">Download Excel File</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
