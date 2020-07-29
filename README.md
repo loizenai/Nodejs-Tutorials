@@ -16,3 +16,6 @@ https://loizenai.com/nodejs-restapis-upload-download-multiple-excel-files-to-mys
 
 5. Multer – Nodejs Upload/Download Multiple Files/Images to Server MySQL/PostgreSQL database – Sequelize + Ajax
 https://loizenai.com/nodejs-upload-download-multiple-files-images-to-server-mysql-postgresql-database-using-multer-sequelize-ajax/
+
+6. Tutorial Nodejs Express RestAPIs MySQL with Sequelize Queries Examples 
+https://loizenai.com/tutorial-nodejs-express-restapis-mysql-sequelize-queries-examples/
