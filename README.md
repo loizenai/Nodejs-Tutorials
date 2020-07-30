@@ -19,3 +19,6 @@ https://loizenai.com/nodejs-upload-download-multiple-files-images-to-server-mysq
 
 6. Tutorial Nodejs Express RestAPIs MySQL with Sequelize Queries Examples 
 https://loizenai.com/tutorial-nodejs-express-restapis-mysql-sequelize-queries-examples/
+
+7. Nodejs MySQL Pagination Filtering Sorting Tutorial – Stack: Express RestAPIs + Sequelize ORM + MySQL database Examples
+https://loizenai.com/nodejs-mysql-pagination-filtering-sorting-tutorial-stack-express-restapis-sequelize-orm-mysql-database-examples/
