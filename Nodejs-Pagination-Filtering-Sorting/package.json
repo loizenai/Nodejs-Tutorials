@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-pagination-filtering-sorting",
+  "version": "1.0.0",
+  "description": "Nodejs pagination filtering sorting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/loizenai.git"
+  },
+  "keywords": [
+    "nodejs",
+    "filtering",
+    "sorting",
+    "pagination"
+  ],
+  "author": "https://loizenai.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/loizenai/issues"
+  },
+  "homepage": "https://github.com/github.com/loizenai#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
+  }
+}
