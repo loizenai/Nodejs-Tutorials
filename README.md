@@ -22,3 +22,6 @@ https://loizenai.com/tutorial-nodejs-express-restapis-mysql-sequelize-queries-ex
 
 7. Nodejs MySQL Pagination Filtering Sorting Tutorial – Stack: Express RestAPIs + Sequelize ORM + MySQL database Examples
 https://loizenai.com/nodejs-mysql-pagination-filtering-sorting-tutorial-stack-express-restapis-sequelize-orm-mysql-database-examples/
+
+8. Angular 10 Nodejs Pagination RestAPIs + Filtering Sorting Example – Fullstack: Angular + Nodejs RestAPIs+ MySQL Tutorial
+https://loizenai.com/angular-10-nodejs-mysql-pagination-filtering-sorting-restapis-example
