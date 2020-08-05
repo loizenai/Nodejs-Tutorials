@@ -25,3 +25,6 @@ https://loizenai.com/nodejs-mysql-pagination-filtering-sorting-tutorial-stack-ex
 
 8. Angular 10 Nodejs Pagination RestAPIs + Filtering Sorting Example – Fullstack: Angular + Nodejs RestAPIs+ MySQL Tutorial
 https://loizenai.com/angular-10-nodejs-mysql-pagination-filtering-sorting-restapis-example
+
+9. Ajax Pagination Node.js MySQL RestAPIs Example – Client Side Pagination in Node.js Tutorial
+https://loizenai.com/ajax-client-side-pagination-in-nodejs-mysql-restapis-example/
