@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ajax Paging Table</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/table.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7"
+					style="background: linear-gradient(to bottom, #ffffff 0%, #ff6699 100%);
+                                 margin: 10px; padding: 10px; border-radius: 8px">
+                <div style="background: linear-gradient(to top, #ffffff 0%, #ffff00 100%);
+                        padding:10px; margin:10px; border-radius: 8px;">
+					<h3>Bootstrap + Ajax + Node.js Pagination</h3>
+					<hr>
+					<p>
+						<strong>@Copyright</strong> by <span style="color: blue">
+						<a href="https://loizenai.com">https://loizenai.com
+						</a></span>
+						 <br> 
+						<strong>youtube</strong>: <span style="color: crimson">
+						<a href="https://www.youtube.com/channel/UChkCKglndLes1hkKBDmwPWA">loizenai
+						</a></span>
+					</p>
+				</div>
+				<h5>Do you want sorting by salary?</h5>
+			    <form>
+			      <div class="custom-control custom-checkbox mb-3">
+			        <input type="checkbox" class="custom-control-input" id="age_sorting" name="age_sorting">
+			        <label class="custom-control-label" for="age_sorting">Age</label>
+			      </div>
+			      <input type="checkbox" id="desc_sorting" name="desc_sorting" disabled>
+			      <label for="defaultCheck">Desc</label>
+			      <br>
+			    </form>
+			    <button id="sortingbtn" class="btn btn-primary" disabled>Sort Now</button>
+				<hr>
+				<div class="form-group">
+				  <label for="slected_form"><h5>Filtering with Salary:</h5></label>
+				  <select class="form-control" id="selected_form">
+				  </select>
+				</div>
+	
+				<table id="customerTable" class="table table-hover table-sm">
+					<thead class="thead-dark">
+						<tr>
+							<th>Id</th>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Age</th>
+							<th>Salary</th>
+							<th>Address</th>
+							<th>Copyright By</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				
+				<ul class="pagination justify-content-center" style="margin:20px 0">
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
