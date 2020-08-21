@@ -28,3 +28,6 @@ https://loizenai.com/angular-10-nodejs-mysql-pagination-filtering-sorting-restap
 
 9. Ajax Pagination Node.js MySQL RestAPIs Example – Client Side Pagination in Node.js Tutorial
 https://loizenai.com/ajax-client-side-pagination-in-nodejs-mysql-restapis-example/
+
+10. Token Based Authentication in Node.js using JWT (JSON Web Tokens) + MySQL Example
+https://loizenai.com/nodejs-token-based-authentication-jwt-json-web-tokens-authentication-mysql-example/
