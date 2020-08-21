@@ -31,3 +31,6 @@ https://loizenai.com/ajax-client-side-pagination-in-nodejs-mysql-restapis-exampl
 
 10. Token Based Authentication in Node.js using JWT (JSON Web Tokens) + MySQL Example
 https://loizenai.com/nodejs-token-based-authentication-jwt-json-web-tokens-authentication-mysql-example/
+
+11. Angular 10 + Nodejs JWT Token Based Authentication with MySQL Example - Express RestAPIs + JWT + BCryptjs + Sequelize
+https://loizenai.com/angular-10-nodejs-jwt-authentication-mysql-examples-tutorials/
