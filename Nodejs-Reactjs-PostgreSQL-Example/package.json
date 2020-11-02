@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-reactjs-restapi-example",
+  "version": "1.0.0",
+  "description": "Nodejs Reactjs RestAPI CRUD MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loizenai"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "crud",
+    "mysql"
+  ],
+  "author": "https://loizenai.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  }
+}
